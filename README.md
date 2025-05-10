@@ -2,6 +2,7 @@
 
 # Method 1: Replace the .dll
 If you don't want to patch the dll yourself, get the dll from releases, though they might be outdated since ill have to regenerate them each update
+Just replace the tModLoader.dll with the patched one from releases and the error about modified .exe should be removed
 
 # Method 2: Patch the .dll yourself
 
