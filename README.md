@@ -1,4 +1,6 @@
 # tModLoaderPatcher
+If you don't want to patch the dll yourself, get the dll from releases, though they might be outdated since ill have to regenerate them each update
+
 Patch tModLoader for Terraria to remove hash checks to play with a modified .exe (without GoG or Steam). Tested only on Linux, don't know if it will work on Windows
 
 ```
