@@ -1,4 +1,4 @@
-# tModLoaderPatcher
+# tModLoaderCracker
 
 # Method 1: Replace the .dll
 
@@ -12,8 +12,8 @@ Patch tModLoader for Terraria to remove hash checks to play with a modified .exe
 
 ```
 cd tModLoader
-dotnet new console -n tModLoaderPatcher
-cd tModLoaderPatcher
+dotnet new console -n tModLoaderCracker
+cd tModLoaderCracker
 dotnet add package Mono.Cecil
 ```
 
@@ -42,13 +42,13 @@ sh start-tModLoader.sh
 If you want you can verify the dlls:
 
 ```
-cd tModLoaderPatcher
+cd tModLoaderCracker
 du tModLoader.dll
 du tModLoader_patched.dll
 avaloniailspy
 ```
 
-Then in ilspy search for checkGoG method and you'll notice the patcher cut out the hash checker function that was crashing the game if the hash wasn't from steam or gog:
+Then in ilspy search for checkGoG method and you'll notice the cracker cut out the hash checker function that was crashing the game if the hash wasn't from steam or gog:
 ```
 private static void CheckGoG()
 	{
@@ -67,4 +67,4 @@ Did not want to download my mods manually and I didn't like tModLoader having a 
 If the patch wouldn't be applied, I'd get this:
 ```GOG installs must have the unmodified Terraria executable to function. This version of tModLoader expects the Terraria_1.4.1.2.exe version of Terraria, you may need to downgrade or upgrade Terraria via GOG Galaxy, or wait for tModLoader to update.```
 
-Make an issue if they updated something so i'll remake the patcher in my free time
+Make an issue if they updated something so i'll remake the cracker in my free time
